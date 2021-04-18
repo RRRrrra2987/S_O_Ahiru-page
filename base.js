@@ -4,6 +4,7 @@ function sleep(waitMsec) {
     while (new Date() - startMsec < waitMsec);
 }
 var count1=1
+var count2=1
 function action1(){
     if (count1%2==1){
         let target = document.getElementById("reaction1");
@@ -14,3 +15,13 @@ function action1(){
         target.className = "mienai";
 }
 count1=count1+1}
+function action2(){
+    if (count1%2==1){
+        let target = document.getElementById("reaction2");
+        target.className = "mieru";
+    }
+    else{
+            let target = document.getElementById("reaction2");
+        target.className = "mienai2";
+}
+count2=count2+1}
