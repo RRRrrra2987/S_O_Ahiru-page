@@ -1,4 +1,4 @@
 body{   
-	background:radial-gradient(circle farthest-side, rgb(255,255,255),rgb(255,255,255) 45%, rgb(255, 255, 170) 55%, rgb(255,255,170));
-	background-size: 20px 20px;
+	background:radial-gradient(circle farthest-side, rgb(255,255,255),rgb(255,255,255) 45%, rgb(255, 255, 160) 55%, rgb(255,255,160));
+	background-size: 30px 30px;
 	}
