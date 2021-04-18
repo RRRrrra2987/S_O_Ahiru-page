@@ -2,3 +2,34 @@ body{
 	background:radial-gradient(circle farthest-side, rgb(255,255,255),rgb(255,255,255) 45%, rgb(255, 255, 160) 55%, rgb(255,255,160));
 	background-size: 30px 30px;
 	}
+.mienai{
+	
+	opacity: 0;
+	font-size: 0%;
+	transition: 0.5s;
+}
+.mieru{
+	font-size: 1em;
+	opacity: 1;
+	transition: 0.5s;
+}
+.red{
+	color: red;
+}
+.lists{
+	background-color: yellow;
+	border: double 3px lightblue;
+	display: inline;
+	font-size: 1em;
+	transition: 0.5s;
+}
+.lists:hover{
+	background-color: yellow;
+	border: double 3px lightblue;
+	display: inline;
+	font-size: 1.5em;
+	transition: 0.5s;
+}
+.title{
+	
+}
