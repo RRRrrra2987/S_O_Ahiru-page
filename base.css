@@ -19,17 +19,30 @@ body{
 .lists{
 	background-color: yellow;
 	border: double 3px lightblue;
-	display: inline;
-	font-size: 1em;
+	font-size: 2em;
 	transition: 0.5s;
 }
 .lists:hover{
-	background-color: yellow;
+	background-color: lightyellow;
 	border: double 3px lightblue;
-	display: inline;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	transition: 0.5s;
 }
 .title{
-	
+
+}
+.mienai2{
+	display: none;
+}
+a:link{
+	color: blue;
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	color: red;
+}
+a{
+	text-decoration: solid;
 }
