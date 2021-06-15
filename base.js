@@ -17,7 +17,7 @@ function action1(){
 count1=count1+1}
 function action2(){
     if (count2%2==1){
-        document.getElementById("reaction2").innerHTML="<iframe src='https://turbowarp.org/507730810/fullscreen' allowtransparency='true' width='500' height='400' id='reaction2'></iframe>"
+        document.getElementById("reaction2").innerHTML="<iframe src='https://turbowarp.org/511137132/fullscreen' allowtransparency='true' width='500' height='400' id='reaction2'></iframe>"
         console.log("b")
     }
     else{
